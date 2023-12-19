@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB04FA9A2B2FE9AB00F87BC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04FA992B2FE9AB00F87BC1 /* AppDelegate.swift */; };
+		EB04FA9C2B2FE9AB00F87BC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04FA9B2B2FE9AB00F87BC1 /* SceneDelegate.swift */; };
+		EB04FA9F2B2FE9AB00F87BC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB04FA9D2B2FE9AB00F87BC1 /* LaunchScreen.storyboard */; };
+		EB04FAA22B2FE9AB00F87BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB04FAA02B2FE9AB00F87BC1 /* Main.storyboard */; };
+		EB04FAAB2B2FE9AB00F87BC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04FAAA2B2FE9AB00F87BC1 /* AppDelegate.swift */; };
+		EB04FAAE2B2FE9AB00F87BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB04FAAC2B2FE9AB00F87BC1 /* Main.storyboard */; };
+		EB04FAB62B2FE9AB00F87BC1 /* CF Analytics Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EB04FAB52B2FE9AB00F87BC1 /* CF Analytics Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EB04FAC02B2FE9AB00F87BC1 /* CF Analytics Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EB04FABF2B2FE9AB00F87BC1 /* CF Analytics Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EB04FAC62B2FE9AB00F87BC1 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = EB04FA892B2FE9A900F87BC1 /* Main.html */; };
+		EB04FAC72B2FE9AB00F87BC1 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = EB04FA892B2FE9A900F87BC1 /* Main.html */; };
+		EB04FAC82B2FE9AB00F87BC1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB04FA8B2B2FE9A900F87BC1 /* Icon.png */; };
+		EB04FAC92B2FE9AB00F87BC1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB04FA8B2B2FE9A900F87BC1 /* Icon.png */; };
+		EB04FACA2B2FE9AB00F87BC1 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = EB04FA8C2B2FE9A900F87BC1 /* Style.css */; };
+		EB04FACB2B2FE9AB00F87BC1 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = EB04FA8C2B2FE9A900F87BC1 /* Style.css */; };
+		EB04FACC2B2FE9AB00F87BC1 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = EB04FA8D2B2FE9A900F87BC1 /* Script.js */; };
+		EB04FACD2B2FE9AB00F87BC1 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = EB04FA8D2B2FE9A900F87BC1 /* Script.js */; };
+		EB04FACE2B2FE9AB00F87BC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04FA8E2B2FE9A900F87BC1 /* ViewController.swift */; };
+		EB04FACF2B2FE9AB00F87BC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04FA8E2B2FE9A900F87BC1 /* ViewController.swift */; };
+		EB04FAD02B2FE9AB00F87BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB04FA8F2B2FE9AB00F87BC1 /* Assets.xcassets */; };
+		EB04FAD12B2FE9AB00F87BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB04FA8F2B2FE9AB00F87BC1 /* Assets.xcassets */; };
+		EB04FAD22B2FE9AB00F87BC1 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04FA912B2FE9AB00F87BC1 /* SafariWebExtensionHandler.swift */; };
+		EB04FAD32B2FE9AB00F87BC1 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04FA912B2FE9AB00F87BC1 /* SafariWebExtensionHandler.swift */; };
+		EB04FAE82B2FE9AB00F87BC1 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = EB04FAE52B2FE9AB00F87BC1 /* _metadata */; };
+		EB04FAE92B2FE9AB00F87BC1 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = EB04FAE62B2FE9AB00F87BC1 /* manifest.json */; };
+		EB04FAEA2B2FE9AB00F87BC1 /* src in Resources */ = {isa = PBXBuildFile; fileRef = EB04FAE72B2FE9AB00F87BC1 /* src */; };
+		EB04FAEB2B2FE9AB00F87BC1 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = EB04FAE52B2FE9AB00F87BC1 /* _metadata */; };
+		EB04FAEC2B2FE9AB00F87BC1 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = EB04FAE62B2FE9AB00F87BC1 /* manifest.json */; };
+		EB04FAED2B2FE9AB00F87BC1 /* src in Resources */ = {isa = PBXBuildFile; fileRef = EB04FAE72B2FE9AB00F87BC1 /* src */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB04FAB72B2FE9AB00F87BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB04FA832B2FE9A900F87BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB04FAB42B2FE9AB00F87BC1;
+			remoteInfo = "CF Analytics Extension (iOS)";
+		};
+		EB04FAC12B2FE9AB00F87BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB04FA832B2FE9A900F87BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB04FABE2B2FE9AB00F87BC1;
+			remoteInfo = "CF Analytics Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB04FAD92B2FE9AB00F87BC1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EB04FAB62B2FE9AB00F87BC1 /* CF Analytics Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB04FAE02B2FE9AB00F87BC1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EB04FAC02B2FE9AB00F87BC1 /* CF Analytics Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB04FA8A2B2FE9A900F87BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		EB04FA8B2B2FE9A900F87BC1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		EB04FA8C2B2FE9A900F87BC1 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		EB04FA8D2B2FE9A900F87BC1 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		EB04FA8E2B2FE9A900F87BC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB04FA8F2B2FE9AB00F87BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB04FA912B2FE9AB00F87BC1 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		EB04FA962B2FE9AB00F87BC1 /* CF Analytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CF Analytics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB04FA992B2FE9AB00F87BC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB04FA9B2B2FE9AB00F87BC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB04FA9E2B2FE9AB00F87BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB04FAA12B2FE9AB00F87BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB04FAA32B2FE9AB00F87BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB04FAA82B2FE9AB00F87BC1 /* CF Analytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CF Analytics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB04FAAA2B2FE9AB00F87BC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB04FAAD2B2FE9AB00F87BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB04FAAF2B2FE9AB00F87BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB04FAB02B2FE9AB00F87BC1 /* CF Analytics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CF Analytics.entitlements"; sourceTree = "<group>"; };
+		EB04FAB52B2FE9AB00F87BC1 /* CF Analytics Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CF Analytics Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB04FABA2B2FE9AB00F87BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB04FABF2B2FE9AB00F87BC1 /* CF Analytics Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CF Analytics Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB04FAC42B2FE9AB00F87BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB04FAC52B2FE9AB00F87BC1 /* CF Analytics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CF Analytics.entitlements"; sourceTree = "<group>"; };
+		EB04FAE52B2FE9AB00F87BC1 /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = Resources/_metadata; sourceTree = "<group>"; };
+		EB04FAE62B2FE9AB00F87BC1 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		EB04FAE72B2FE9AB00F87BC1 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = Resources/src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB04FA932B2FE9AB00F87BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB04FAA52B2FE9AB00F87BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB04FAB22B2FE9AB00F87BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB04FABC2B2FE9AB00F87BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB04FA822B2FE9A900F87BC1 = {
+			isa = PBXGroup;
+			children = (
+				EB04FA872B2FE9A900F87BC1 /* Shared (App) */,
+				EB04FA902B2FE9AB00F87BC1 /* Shared (Extension) */,
+				EB04FA982B2FE9AB00F87BC1 /* iOS (App) */,
+				EB04FAA92B2FE9AB00F87BC1 /* macOS (App) */,
+				EB04FAB92B2FE9AB00F87BC1 /* iOS (Extension) */,
+				EB04FAC32B2FE9AB00F87BC1 /* macOS (Extension) */,
+				EB04FA972B2FE9AB00F87BC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB04FA872B2FE9A900F87BC1 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				EB04FA8E2B2FE9A900F87BC1 /* ViewController.swift */,
+				EB04FA8F2B2FE9AB00F87BC1 /* Assets.xcassets */,
+				EB04FA882B2FE9A900F87BC1 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		EB04FA882B2FE9A900F87BC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB04FA892B2FE9A900F87BC1 /* Main.html */,
+				EB04FA8B2B2FE9A900F87BC1 /* Icon.png */,
+				EB04FA8C2B2FE9A900F87BC1 /* Style.css */,
+				EB04FA8D2B2FE9A900F87BC1 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EB04FA902B2FE9AB00F87BC1 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				EB04FAE42B2FE9AB00F87BC1 /* Resources */,
+				EB04FA912B2FE9AB00F87BC1 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		EB04FA972B2FE9AB00F87BC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB04FA962B2FE9AB00F87BC1 /* CF Analytics.app */,
+				EB04FAA82B2FE9AB00F87BC1 /* CF Analytics.app */,
+				EB04FAB52B2FE9AB00F87BC1 /* CF Analytics Extension.appex */,
+				EB04FABF2B2FE9AB00F87BC1 /* CF Analytics Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB04FA982B2FE9AB00F87BC1 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				EB04FA992B2FE9AB00F87BC1 /* AppDelegate.swift */,
+				EB04FA9B2B2FE9AB00F87BC1 /* SceneDelegate.swift */,
+				EB04FA9D2B2FE9AB00F87BC1 /* LaunchScreen.storyboard */,
+				EB04FAA02B2FE9AB00F87BC1 /* Main.storyboard */,
+				EB04FAA32B2FE9AB00F87BC1 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		EB04FAA92B2FE9AB00F87BC1 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				EB04FAAA2B2FE9AB00F87BC1 /* AppDelegate.swift */,
+				EB04FAAC2B2FE9AB00F87BC1 /* Main.storyboard */,
+				EB04FAAF2B2FE9AB00F87BC1 /* Info.plist */,
+				EB04FAB02B2FE9AB00F87BC1 /* CF Analytics.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		EB04FAB92B2FE9AB00F87BC1 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				EB04FABA2B2FE9AB00F87BC1 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		EB04FAC32B2FE9AB00F87BC1 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				EB04FAC42B2FE9AB00F87BC1 /* Info.plist */,
+				EB04FAC52B2FE9AB00F87BC1 /* CF Analytics.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		EB04FAE42B2FE9AB00F87BC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB04FAE52B2FE9AB00F87BC1 /* _metadata */,
+				EB04FAE62B2FE9AB00F87BC1 /* manifest.json */,
+				EB04FAE72B2FE9AB00F87BC1 /* src */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB04FA952B2FE9AB00F87BC1 /* CF Analytics (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB04FADA2B2FE9AB00F87BC1 /* Build configuration list for PBXNativeTarget "CF Analytics (iOS)" */;
+			buildPhases = (
+				EB04FA922B2FE9AB00F87BC1 /* Sources */,
+				EB04FA932B2FE9AB00F87BC1 /* Frameworks */,
+				EB04FA942B2FE9AB00F87BC1 /* Resources */,
+				EB04FAD92B2FE9AB00F87BC1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB04FAB82B2FE9AB00F87BC1 /* PBXTargetDependency */,
+			);
+			name = "CF Analytics (iOS)";
+			productName = "CF Analytics (iOS)";
+			productReference = EB04FA962B2FE9AB00F87BC1 /* CF Analytics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB04FAA72B2FE9AB00F87BC1 /* CF Analytics (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB04FAE12B2FE9AB00F87BC1 /* Build configuration list for PBXNativeTarget "CF Analytics (macOS)" */;
+			buildPhases = (
+				EB04FAA42B2FE9AB00F87BC1 /* Sources */,
+				EB04FAA52B2FE9AB00F87BC1 /* Frameworks */,
+				EB04FAA62B2FE9AB00F87BC1 /* Resources */,
+				EB04FAE02B2FE9AB00F87BC1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB04FAC22B2FE9AB00F87BC1 /* PBXTargetDependency */,
+			);
+			name = "CF Analytics (macOS)";
+			productName = "CF Analytics (macOS)";
+			productReference = EB04FAA82B2FE9AB00F87BC1 /* CF Analytics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB04FAB42B2FE9AB00F87BC1 /* CF Analytics Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB04FAD62B2FE9AB00F87BC1 /* Build configuration list for PBXNativeTarget "CF Analytics Extension (iOS)" */;
+			buildPhases = (
+				EB04FAB12B2FE9AB00F87BC1 /* Sources */,
+				EB04FAB22B2FE9AB00F87BC1 /* Frameworks */,
+				EB04FAB32B2FE9AB00F87BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CF Analytics Extension (iOS)";
+			productName = "CF Analytics Extension (iOS)";
+			productReference = EB04FAB52B2FE9AB00F87BC1 /* CF Analytics Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		EB04FABE2B2FE9AB00F87BC1 /* CF Analytics Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB04FADD2B2FE9AB00F87BC1 /* Build configuration list for PBXNativeTarget "CF Analytics Extension (macOS)" */;
+			buildPhases = (
+				EB04FABB2B2FE9AB00F87BC1 /* Sources */,
+				EB04FABC2B2FE9AB00F87BC1 /* Frameworks */,
+				EB04FABD2B2FE9AB00F87BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CF Analytics Extension (macOS)";
+			productName = "CF Analytics Extension (macOS)";
+			productReference = EB04FABF2B2FE9AB00F87BC1 /* CF Analytics Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB04FA832B2FE9A900F87BC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EB04FA952B2FE9AB00F87BC1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EB04FAA72B2FE9AB00F87BC1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EB04FAB42B2FE9AB00F87BC1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EB04FABE2B2FE9AB00F87BC1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = EB04FA862B2FE9A900F87BC1 /* Build configuration list for PBXProject "CF Analytics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB04FA822B2FE9A900F87BC1;
+			productRefGroup = EB04FA972B2FE9AB00F87BC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB04FA952B2FE9AB00F87BC1 /* CF Analytics (iOS) */,
+				EB04FAA72B2FE9AB00F87BC1 /* CF Analytics (macOS) */,
+				EB04FAB42B2FE9AB00F87BC1 /* CF Analytics Extension (iOS) */,
+				EB04FABE2B2FE9AB00F87BC1 /* CF Analytics Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB04FA942B2FE9AB00F87BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB04FAC82B2FE9AB00F87BC1 /* Icon.png in Resources */,
+				EB04FA9F2B2FE9AB00F87BC1 /* LaunchScreen.storyboard in Resources */,
+				EB04FAC62B2FE9AB00F87BC1 /* Main.html in Resources */,
+				EB04FACC2B2FE9AB00F87BC1 /* Script.js in Resources */,
+				EB04FAD02B2FE9AB00F87BC1 /* Assets.xcassets in Resources */,
+				EB04FAA22B2FE9AB00F87BC1 /* Main.storyboard in Resources */,
+				EB04FACA2B2FE9AB00F87BC1 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB04FAA62B2FE9AB00F87BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB04FAC92B2FE9AB00F87BC1 /* Icon.png in Resources */,
+				EB04FACB2B2FE9AB00F87BC1 /* Style.css in Resources */,
+				EB04FAAE2B2FE9AB00F87BC1 /* Main.storyboard in Resources */,
+				EB04FACD2B2FE9AB00F87BC1 /* Script.js in Resources */,
+				EB04FAD12B2FE9AB00F87BC1 /* Assets.xcassets in Resources */,
+				EB04FAC72B2FE9AB00F87BC1 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB04FAB32B2FE9AB00F87BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB04FAED2B2FE9AB00F87BC1 /* src in Resources */,
+				EB04FAEC2B2FE9AB00F87BC1 /* manifest.json in Resources */,
+				EB04FAEB2B2FE9AB00F87BC1 /* _metadata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB04FABD2B2FE9AB00F87BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB04FAEA2B2FE9AB00F87BC1 /* src in Resources */,
+				EB04FAE92B2FE9AB00F87BC1 /* manifest.json in Resources */,
+				EB04FAE82B2FE9AB00F87BC1 /* _metadata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB04FA922B2FE9AB00F87BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB04FACE2B2FE9AB00F87BC1 /* ViewController.swift in Sources */,
+				EB04FA9A2B2FE9AB00F87BC1 /* AppDelegate.swift in Sources */,
+				EB04FA9C2B2FE9AB00F87BC1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB04FAA42B2FE9AB00F87BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB04FACF2B2FE9AB00F87BC1 /* ViewController.swift in Sources */,
+				EB04FAAB2B2FE9AB00F87BC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB04FAB12B2FE9AB00F87BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB04FAD22B2FE9AB00F87BC1 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB04FABB2B2FE9AB00F87BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB04FAD32B2FE9AB00F87BC1 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB04FAB82B2FE9AB00F87BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB04FAB42B2FE9AB00F87BC1 /* CF Analytics Extension (iOS) */;
+			targetProxy = EB04FAB72B2FE9AB00F87BC1 /* PBXContainerItemProxy */;
+		};
+		EB04FAC22B2FE9AB00F87BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB04FABE2B2FE9AB00F87BC1 /* CF Analytics Extension (macOS) */;
+			targetProxy = EB04FAC12B2FE9AB00F87BC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB04FA892B2FE9A900F87BC1 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB04FA8A2B2FE9A900F87BC1 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		EB04FA9D2B2FE9AB00F87BC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB04FA9E2B2FE9AB00F87BC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EB04FAA02B2FE9AB00F87BC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB04FAA12B2FE9AB00F87BC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB04FAAC2B2FE9AB00F87BC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB04FAAD2B2FE9AB00F87BC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB04FAD42B2FE9AB00F87BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB04FAD52B2FE9AB00F87BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EB04FAD72B2FE9AB00F87BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CF Analytics Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.CF-Analytics.Extension";
+				PRODUCT_NAME = "CF Analytics Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB04FAD82B2FE9AB00F87BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CF Analytics Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.CF-Analytics.Extension";
+				PRODUCT_NAME = "CF Analytics Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB04FADB2B2FE9AB00F87BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CF Analytics";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.CF-Analytics";
+				PRODUCT_NAME = "CF Analytics";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB04FADC2B2FE9AB00F87BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CF Analytics";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.CF-Analytics";
+				PRODUCT_NAME = "CF Analytics";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB04FADE2B2FE9AB00F87BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/CF Analytics.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CF Analytics Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.CF-Analytics.Extension";
+				PRODUCT_NAME = "CF Analytics Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB04FADF2B2FE9AB00F87BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/CF Analytics.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CF Analytics Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.CF-Analytics.Extension";
+				PRODUCT_NAME = "CF Analytics Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EB04FAE22B2FE9AB00F87BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/CF Analytics.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CF Analytics";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.CF-Analytics";
+				PRODUCT_NAME = "CF Analytics";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB04FAE32B2FE9AB00F87BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/CF Analytics.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CF Analytics";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.CF-Analytics";
+				PRODUCT_NAME = "CF Analytics";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB04FA862B2FE9A900F87BC1 /* Build configuration list for PBXProject "CF Analytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB04FAD42B2FE9AB00F87BC1 /* Debug */,
+				EB04FAD52B2FE9AB00F87BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB04FAD62B2FE9AB00F87BC1 /* Build configuration list for PBXNativeTarget "CF Analytics Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB04FAD72B2FE9AB00F87BC1 /* Debug */,
+				EB04FAD82B2FE9AB00F87BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB04FADA2B2FE9AB00F87BC1 /* Build configuration list for PBXNativeTarget "CF Analytics (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB04FADB2B2FE9AB00F87BC1 /* Debug */,
+				EB04FADC2B2FE9AB00F87BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB04FADD2B2FE9AB00F87BC1 /* Build configuration list for PBXNativeTarget "CF Analytics Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB04FADE2B2FE9AB00F87BC1 /* Debug */,
+				EB04FADF2B2FE9AB00F87BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB04FAE12B2FE9AB00F87BC1 /* Build configuration list for PBXNativeTarget "CF Analytics (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB04FAE22B2FE9AB00F87BC1 /* Debug */,
+				EB04FAE32B2FE9AB00F87BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB04FA832B2FE9A900F87BC1 /* Project object */;
+}
