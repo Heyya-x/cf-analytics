@@ -16,3 +16,4 @@ Configure Safari in macOS to run unsigned extensions
 
 Then run `CF Analytics` and click `Quit and Open Safari Extensinos Preferences...` . Then this extension will be added to your Safari.
 
+*   **NOTE**: After restarting Safari, it is necessary to repeat the above steps. Check [this](https://stackoverflow.com/questions/62748163/how-can-i-sign-a-safari-extension-for-just-one-computer) to get a permanent extension.
